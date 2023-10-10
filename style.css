@@ -48,3 +48,65 @@ header {
   height: 70px;
   margin: 15px;
 }
+
+main {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+}
+
+#hero {
+  margin: 70px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-info {
+  width: 30%;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-info h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.hero-info p {
+  font-size: 14px;
+  color: whitesmoke;
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+#hero img {
+  width: 450px;
+  height: 300px;
+  margin: 150px 0;
+}
+
+.about {
+  margin: 70px 0;
+  width: 63%;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about-container p {
+  text-align: justify;
+  margin: 10px;
+  width: 80%;
+  color: whitesmoke;
+}
