@@ -51,25 +51,26 @@ header {
 
 main {
   display: flex;
-
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 100%;
-  background-color: black;
+  background-color: rgb(17, 14, 14);
 }
 
 #hero {
-  margin: 70px 0;
+  margin: 70px 70px 0 0;
   display: flex;
   justify-content: center;
 }
 
 .hero-info {
   width: 30%;
-  margin: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .hero-info h1 {
@@ -77,6 +78,7 @@ main {
   font-weight: 800;
   color: blue;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .hero-info p {
@@ -93,20 +95,8 @@ main {
 }
 
 .about {
-  margin: 70px 0;
-  width: 63%;
+  color: whitesmoke;
   justify-content: center;
   align-items: center;
-}
-
-.about-container {
-  display: flex;
-  justify-content: center;
-}
-
-.about-container p {
-  text-align: justify;
-  margin: 10px;
   width: 80%;
-  color: whitesmoke;
 }
