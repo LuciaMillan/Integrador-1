@@ -115,6 +115,11 @@
 }
 
 @media screen and (max-width: 350px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   #hero {
     max-width: 300px;
   }
