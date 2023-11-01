@@ -102,6 +102,12 @@
   }
 }
 
+@media screen and (max-width: 450px) {
+  main {
+    margin: auto 0;
+  }
+}
+
 @media screen and (max-width: 320px) {
   #hero {
     max-width: 300px;
