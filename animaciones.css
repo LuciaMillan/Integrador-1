@@ -1,0 +1,17 @@
+.navbar__list li a::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: #f3f4f6;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scale(0);
+  transform-origin: bottom right;
+  transition: transform 0.15s ease;
+}
+
+.navbar__list li a:hover::after {
+  transform-origin: bottom left;
+  transform: scale(1);
+}
