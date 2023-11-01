@@ -1,8 +1,6 @@
 @media screen and (max-width: 768px) {
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  body {
+    width: 100vh;
   }
 
   .menu-label {
@@ -109,10 +107,8 @@
 }
 
 @media screen and (max-width: 320px) {
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  body {
+    width: 100vh;
   }
 
   #hero {
