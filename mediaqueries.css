@@ -1,4 +1,9 @@
 @media screen and (max-width: 768px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .menu-label {
     display: flex;
     order: 2;
