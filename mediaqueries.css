@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
   }
+
   .menu-label {
     display: flex;
     order: 2;
@@ -73,6 +74,12 @@
 }
 
 @media screen and (max-width: 480px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   #hero {
     margin: auto 0;
     margin: 80px;
@@ -102,6 +109,12 @@
 }
 
 @media screen and (max-width: 320px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   #hero {
     max-width: 300px;
   }
