@@ -1,3 +1,6 @@
+.navbar__list li {
+  position: relative;
+}
 .navbar__list li a::after {
   content: "";
   height: 2px;
