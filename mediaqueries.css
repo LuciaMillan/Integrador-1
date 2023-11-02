@@ -76,6 +76,11 @@
     width: 100%;
   }
 
+  header {
+    width: 100%;
+    max-width: 300px;
+  }
+
   #hero {
     margin: auto 0;
     padding: 80px;
