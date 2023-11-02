@@ -110,25 +110,36 @@
     border: 0;
   }
 
+  .navbar {
+    max-width: 100%;
+  }
+
+  .navbar__list {
+    top: 80px;
+  }
+
   #menu-toggle {
     width: 50px;
   }
 
   #hero {
-    max-width: 300px;
+    max-width: 320px;
     width: 100%;
   }
 
   #hero img {
-    max-width: 250px;
-    left: 10px;
-    height: 100%;
+    max-width: 100%;
+    width: 320px;
+    height: auto;
+    border: 1px solid red;
   }
 
   #hero h1 {
     font-size: 30px;
     padding: 0 10px;
     text-align: center;
+    max-width: 100%;
+    width: 300px;
   }
 
   .login__container {
