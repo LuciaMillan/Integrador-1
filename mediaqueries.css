@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .menu-label {
     display: flex;
     order: 2;
@@ -41,11 +41,11 @@
     justify-content: center;
     align-items: center;
     margin: auto 0;
-    margin: 80px;
+    padding: 80px;
   }
 
   .hero-info h1 {
-    margin: 15px 15px 0 0;
+    padding: 15px 15px 0 0;
     width: 700px;
     justify-content: center;
   }
@@ -54,7 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 15px;
+    padding: 15px;
   }
 
   .registro__container {
@@ -76,7 +76,7 @@
 
   #hero {
     margin: auto 0;
-    margin: 80px;
+    padding: 80px;
   }
 
   .hero-info h1 {
@@ -102,33 +102,33 @@
   }
 }
 
-@media screen and (max-width: 450px) {
-  main {
-    margin: auto 0;
+@media screen and (max-width: 320px) {
+  header {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    border: 0;
   }
-}
 
-@media screen and (max-width: 400px) {
-  main {
-    margin: auto 0;
+  #menu-toggle {
+    width: 50px;
   }
-}
 
-@media screen and (max-width: 350px) {
-  main {
-    margin: 0 auto;
-  }
   #hero {
     max-width: 300px;
-  }
-
-  .hero-info h1 {
-    width: 300px;
+    width: 100%;
   }
 
   #hero img {
-    width: 300px;
-    height: 200px;
+    max-width: 250px;
+    left: 10px;
+    height: 100%;
+  }
+
+  #hero h1 {
+    font-size: 30px;
+    padding: 0 10px;
+    text-align: center;
   }
 
   .login__container {
