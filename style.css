@@ -255,11 +255,10 @@ body {
 }
 
 .login__container {
-  margin-top: 90px;
   display: flex;
   flex-direction: column;
-  width: 800px;
-  height: 500px;
+  width: 700px;
+  height: 450px;
   border: 5px solid blue;
   justify-content: center;
 }
